@@ -11,6 +11,7 @@ import { User } from 'ish-core/models/user/user.model';
 })
 export class AppComponent implements OnInit {
   user$: Observable<User>;
+  
 
   constructor(private accountFacade: AccountFacade) {}
 

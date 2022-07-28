@@ -40,6 +40,7 @@ import { ShellModule } from './shell/shell.module';
     CompareRoutingModule,
     ContactUsRoutingModule,
     AppLastRoutingModule,
+    // GtagModule.forRoot({ trackingId: 'G-8KTZJP7PJP', trackPageviews: true })
   ],
   /* eslint-enable @angular-eslint/sort-ngmodule-metadata-arrays */
   bootstrap: [AppComponent],
